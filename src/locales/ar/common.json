@@ -1,0 +1,370 @@
+{
+  "navbar": {
+    "search_placeholder": "البحث أو كتابة أمر...",
+    "search": "بحث",
+    "notifications": "الإشعارات",
+    "profile": "الملف الشخصي"
+  },
+  "sidebar": {
+    "menu": "القائمة",
+    "others": "أخرى",
+    "dashboard": "الرئيسية",
+    "ecommerce": "التجارة الإلكترونية",
+    "calendar": "التقويم",
+    "user_profile": "الملف الشخصي",
+    "ai_requests": "طلبات الذكاء الاصطناعي",
+    "emergency_cases": "حالات الطوارئ",
+    "forms": "النماذج",
+    "form_elements": "عناصر النموذج",
+    "tables": "الجداول",
+    "basic_tables": "الجداول الأساسية",
+    "pages": "الصفحات",
+    "blank_page": "صفحة فارغة",
+    "error_404": "خطأ 404",
+    "charts": "المخططات",
+    "line_chart": "مخطط خطي",
+    "bar_chart": "مخطط شريطي",
+    "ui_elements": "عناصر واجهة المستخدم",
+    "alerts": "التنبيهات",
+    "avatar": "الصورة الرمزية",
+    "badge": "الشارة",
+    "buttons": "الأزرار",
+    "images": "الصور",
+    "videos": "الفيديوهات",
+    "authentication": "المصادقة",
+    "signin": "تسجيل الدخول",
+    "signup": "إنشاء حساب",
+    "widget": {
+      "title": "تيل أدمن برو",
+      "desc": "احصل على وصول غير محدود لجميع الميزات والقوالب.",
+      "upgrade": "الترقية إلى برو"
+    }
+  },
+  "user": {
+    "edit_profile": "الملف الشخصي",
+    "account_settings": "إعدادات الحساب",
+    "support": "الدعم الفني",
+    "sign_out": "تسجيل الخروج"
+  },
+  "metrics": {
+    "customers": "العملاء",
+    "orders": "الطلبات",
+    "sales": "المبيعات",
+    "revenue": "الإيرادات"
+  },
+  "common": {
+    "actions": "الإجراءات",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "submit": "إرسال",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "close": "إغلاق",
+    "ok": "حسناً",
+    "loading": "جاري التحميل...",
+    "no_data": "لا توجد بيانات متاحة",
+    "validation": {
+      "required": "هذا الحقل مطلوب",
+      "email": "يرجى إدخال بريد إلكتروني صحيح",
+      "min_length": "يجب أن يتكون من {{count}} أحرف على الأقل"
+    }
+  },
+  "landing": {
+    "hero": {
+      "badge": "Next-Gen AI Platform",
+      "title_g1": "Transform Analytics",
+      "title_g2": "With Advanced AI",
+      "subtitle": "Unlock deep user patterns, forecast financial vectors, and scale dashboard metrics using real-time generative models in a premium futuristic hub.",
+      "cta_primary": "Enter Dashboard",
+      "cta_secondary": "Watch Demo"
+    },
+    "navbar": {
+      "features": "Features",
+      "preview": "Preview",
+      "stats": "Statistics",
+      "login": "Login",
+      "logo_title": "AI SaaS"
+    },
+    "features": {
+      "title": "Built for Futuristic Tech Teams",
+      "desc": "Leverage quantum-level models to simplify metrics, forecast scales, and maximize operational flows.",
+      "f1_title": "Generative Insights",
+      "f1_desc": "Automatically synthesize daily logs into elegant qualitative performance actions.",
+      "f2_title": "Predictive Scaling",
+      "f2_desc": "Forecast customer vectors up to three quarters in advance with 98% validated accuracy.",
+      "f3_title": "Glassmorphism UI",
+      "f3_desc": "A visual design system optimized for modern dark grids and harmony.",
+      "f4_title": "Quantum Tables",
+      "f4_desc": "Organize large-scale dataset rows with dynamic client-side filtering."
+    },
+    "stats": {
+      "title": "Trusted by Hyper-Growth Startups",
+      "desc": "Real results backing our high-fidelity analytics ecosystem.",
+      "s1_label": "Active SaaS Installs",
+      "s2_label": "AI Vectors Computed Daily",
+      "s3_label": "System Uptime Guaranteed"
+    },
+    "cta": {
+      "title": "Ready to Ascend into the Future of AI?",
+      "desc": "Join over 5,000+ engineers building high-end scalable products today.",
+      "button": "Get Started Instantly"
+    }
+  },
+  "medical_landing": {
+    "brand": "سلامتي",
+    "navbar": {
+      "home": "الرئيسية",
+      "features": "المميزات",
+      "analysis": "التحليلات",
+      "emergency": "الطوارئ",
+      "about": "عن المنصة",
+      "contact": "تواصل معنا",
+      "admin_panel": "لوحة المدير"
+    },
+    "hero": {
+      "badge": "تطبيق الهاتف الذكي للذكاء الاصطناعي الطبي",
+      "heading": "صحتك في أيدٍ ذكية",
+      "subheading": "اختبر تطبيق سلامتي للهاتف المحمول، المساعد الذكي الذي يقدم لك تحليلاً فوريًا للأشعات، وإرشادات الطوارئ العاجلة، ومساعدًا طبيًا موثوقًا في جيبك.",
+      "cta_primary": "تحميل التطبيق",
+      "cta_secondary": "مشاهدة المميزات"
+    },
+    "features": {
+      "title": "أدوات طبية ذكية في جيبك",
+      "desc": "عزز تحليلاتك الطبية وقراراتك الصحية مباشرة عبر هاتفك الذكي باستخدام وحدات الذكاء الاصطناعي المستقلة والفاخرة.",
+      "f1_title": "ماسح الأشعات بالذكاء الاصطناعي",
+      "f1_desc": "حلل الأشعة السينية ومسوح المختبرات فورياً بكاميرا هاتفك مع مؤشرات تشخيصية مضيئة.",
+      "f2_title": "مساعد طبي ذكي في جيبك 24/7",
+      "f2_desc": "دردشة طبية ذكية ترافقك أينما ذهبت للإجابة عن أسئلتك الصحية وتوجيه تشخيصك.",
+      "f3_title": "مدرب الإسعافات الفورية",
+      "f3_desc": "خطوات مرئية وصوتية تفاعلية على هاتفك لإدارة الحالات المفاجئة بكفاءة تامة.",
+      "f4_title": "زر طوارئ عاجل للهاتف",
+      "f4_desc": "بث طوارئ بلمسة واحدة يرسل إحداثيات موقعك الجغرافي لأقرب المستشفيات في ثوانٍ.",
+      "f5_title": "محدد المستشفيات والعيادات",
+      "f5_desc": "خرائط تفاعلية واتجاهات GPS مباشرة تعرض أقرب مقدمي الرعاية والمسافة المتبقية.",
+      "f6_title": "سجل الأعراض التفاعلي",
+      "f6_desc": "سجل أعراضك اليومية على هاتفك لإنشاء تقارير ومخططات تفصيلية لتقديمها لطبيبك.",
+      "f7_title": "توصيات صحية مخصصة",
+      "f7_desc": "نصائح وقائية يومية من الذكاء الاصطناعي محسنة لتناسب نشاطك وسجلاتك الحيوية.",
+      "f8_title": "تصدير التقارير الطبية PDF",
+      "f8_desc": "أنتج ملفات طبية سريرية منظمة وموحدة لمشاركتها مع طبيب العائلة بضغطة زر."
+    },
+    "emergency": {
+      "badge": "بروتوكول الطوارئ النشط",
+      "title": "مركز الطوارئ المحمول الحرج",
+      "desc": "مساعدة طبية فورية عندما تكون كل ثانية حاسمة. ابث تنبيه موقعك، اتبع دليل الإسعافات، أو اتصل فوراً بلمسة زر.",
+      "hotline_title": "اتصل الآن بالطوارئ",
+      "hotline_sub": "اتصال مجاني ومباشر على مدار الساعة",
+      "first_aid_title": "دليل الإسعافات",
+      "first_aid_sub": "مساعدة سريرية تفاعلية خطوة بخطوة",
+      "ai_assistant_title": "مساعد الطوارئ الذكي",
+      "ai_assistant_sub": "تصنيف فوري للحالة الطارئة"
+    },
+    "stats": {
+      "users": "المستخدمون النشطون",
+      "users_desc": "مرضى ومستخدمون يثقون بمنصتنا لمتابعة حالتهم الصحية يومياً.",
+      "analyses": "التحليلات الطبية المعالجة",
+      "analyses_desc": "تحاليل طبية وصور أشعة تم فحصها وتفسيرها بالذكاء الاصطناعي.",
+      "emergencies": "حالات الطوارئ المستجابة",
+      "emergencies_desc": "نداءات استغاثة وبلاغات حرجة تم توجيهها لأقرب وحدة إنقاذ.",
+      "hospitals": "المستشفيات المرتبطة",
+      "hospitals_desc": "مستشفيات ومراكز رعاية طبية متكاملة داخل شبكتنا السريعة.",
+      "response_time": "سرعة الاستجابة",
+      "response_time_desc": "معدل استجابة وتوجيه قياسي لإنقاذ الأرواح في اللحظات الحرجة.",
+      "ai_accuracy": "دقة تشخيص الذكاء الاصطناعي",
+      "ai_accuracy_desc": "دقة تشخيصية سريرية معتمدة ومطابقة لأحدث المعايير العالمية."
+    },
+    "testimonials": {
+      "title": "معتمد من رواد التكنولوجيا الطبية",
+      "desc": "تجارب الأطباء والمرضى في تحسين متجهاتهم الصحية وسلامتهم عبر تطبيق سلامتي للهاتف المحمول.",
+      "dr_name": "د. سارة الفيصل",
+      "dr_title": "رئيسة قسم الذكاء الاصطناعي السريري",
+      "dr_quote": "تطبيق سلامتي للهاتف هو رفيق سريري استثنائي. يتيح للمرضى فحص أعراضهم ومشاركة تقارير PDF الطبية معنا بدقة تامة.",
+      "patient_name": "ريان الحربي",
+      "patient_title": "مستخدم تطبيق الهاتف",
+      "patient_quote": "يمنحني وجود محلل الأشعة ومحدد الطوارئ الجغرافي على هاتفي راحة بال مطلقة أثناء التنقل والسفر."
+    },
+    "cta": {
+      "title": "حمل مستقبل الرعاية الصحية اليوم",
+      "desc": "احصل على تحليلات دقيقة للأشعات، مساعد سريري ذكي في جيبك، وخرائط طوارئ مباشرة مدعومة بنماذجنا الطبية الفاخرة.",
+      "button": "تحميل من متجر التطبيقات App Store",
+      "contact": "تحميل من متجر Google Play"
+    }
+  },
+  "ai_requests": {
+    "title": "سجلات طلبات المساعد الطبي والتشخيص",
+    "subtitle": "مراقبة وتحليل ومعالجة سجلات التفاعل الطبي وسرعة الاستجابة بالذكاء الاصطناعي.",
+    "meta": {
+      "title": "مراقبة طلبات الذكاء الاصطناعي | سلامتي"
+    },
+    "export": "تصدير التقرير (CSV)",
+    "summary": {
+      "total": "إجمالي الطلبات",
+      "completed": "الطلبات المكتملة",
+      "pending": "تحت المعالجة",
+      "latency": "متوسط سرعة الاستجابة"
+    },
+    "search_placeholder": "البحث باسم المستخدم، الرسائل، أو نوع التشخيص...",
+    "filters": {
+      "all_types": "كل الفئات الطبية",
+      "all_statuses": "كل الحالات",
+      "all_users": "كل المرضى"
+    },
+    "columns": {
+      "user": "المستخدم",
+      "type": "الفئة الطبية",
+      "message": "رسالة الطلب",
+      "response": "معاينة تشخيص الذكاء الاصطناعي",
+      "status": "الحالة",
+      "latency": "سرعة الاستجابة",
+      "date": "تاريخ الطلب",
+      "actions": "الإجراءات"
+    },
+    "telemetry_offline": "اتصال القياس الطبي مغلق",
+    "retry": "إعادة محاولة الاتصال",
+    "no_data": "لا توجد سجلات تشخيصية تطابق البحث.",
+    "actions": {
+      "view": "عرض التفاصيل الكاملة",
+      "copy": "نسخ رسالة الطلب",
+      "retry": "إعادة معالجة التشخيص",
+      "delete": "حذف السجل نهائياً"
+    },
+    "messages": {
+      "confirm_delete": "هل أنت متأكد من رغبتك في حذف سجل المراقبة هذا نهائياً؟",
+      "delete_failed": "فشل حذف سجل المراقبة.",
+      "copied": "تم نسخ النص إلى الحافظة بنجاح."
+    },
+    "pagination": {
+      "info": "عرض {{start}} إلى {{end}} من أصل {{total}} طلب"
+    },
+    "modal": {
+      "details_title": "سجل التشخيص والتحليل الطبي الكامل",
+      "user_prompt": "مطلب المريض (User Prompt)",
+      "clinical_diagnosis": "التشخيص الطبي للذكاء الاصطناعي (Clinical Response)",
+      "telemetry_analysis": "تحليل مقاييس الأداء والنماذج (Model Performance)",
+      "model_used": "النموذج الطبي المستخدم",
+      "tokens": "تحليل الرموز المستهلكة",
+      "attached_files": "الملفات المرفقة",
+      "attached_visuals": "الملفات وصور الأشعة المرفقة",
+      "no_attachments": "لا توجد ملفات أو صور أشعة مرفقة.",
+      "view_scan": "عرض الأشعة ↗",
+      "copy": "نسخ النص 📋",
+      "response_time": "سرعة الاستجابة"
+    }
+  },
+  "admin_home": {
+    "title": "مركز التحكم وتحليلات المنصة",
+    "subtitle": "مراقبة نماذج الذكاء الاصطناعي التوليدية، ومقاييس الفرز الطبي، وتحليلات النظام في الوقت الفعلي.",
+    "insights": {
+      "title": "رؤى المنصة الذكية",
+      "most_used": "الميزة الأكثر استخداماً",
+      "most_active": "الوحدة الأكثر نشاطاً",
+      "interactions": "إجمالي تفاعلات المنصة",
+      "ai_requests_val": "طلبات الذكاء الاصطناعي",
+      "chat_assistant_val": "مساعد المحادثة"
+    },
+    "metrics": {
+      "total_ai_requests": "إجمالي طلبات الذكاء الاصطناعي",
+      "total_chat_messages": "إجمالي رسائل المحادثة",
+      "active_chat_users": "المستخدمون النشطون",
+      "total_radiology": "تقارير الأشعة",
+      "emergency_cases": "حالات الطوارئ",
+      "drug_checks": "فحوصات الأدوية",
+      "total_labs": "المعامل والتحاليل",
+      "total_users": "إجمالي المستخدمين"
+    },
+    "charts": {
+      "ai_activity_title": "نشاط طلبات الذكاء الاصطناعي",
+      "usage_dist_title": "توزيع استخدام المنصة",
+      "services_comp_title": "مقارنة الخدمات الطبية",
+      "requests_label": "الطلبات",
+      "day_label": "اليوم",
+      "labs": "المعامل",
+      "radiology": "الأشعة",
+      "drugs": "فحوصات الأدوية",
+      "emergencies": "الطوارئ",
+      "ai_requests": "طلبات الذكاء الاصطناعي",
+      "chat_messages": "رسائل المحادثة",
+      "radiology_reports": "تقارير الأشعة"
+    }
+  },
+  "emergency_cases": {
+    "title": "حالات الطوارئ الطبية",
+    "subtitle": "مراقبة وإدارة البلاغات والحالات الطارئة التي تم تحليلها بواسطة النظام.",
+    "meta": {
+      "title": "حالات الطوارئ الطبية | لوحة تحكم سلامتي"
+    },
+    "export": "تصدير الحالات (CSV)",
+    "summary": {
+      "total": "إجمالي الحالات",
+      "critical": "الحالات الحرجة",
+      "urgent": "الحالات العاجلة",
+      "latest": "آخر حالة مسجلة"
+    },
+    "search_placeholder": "البحث بالملخص العربي، معرف المستخدم، أو معرف الحالة...",
+    "filters": {
+      "all_severities": "كل درجات الخطورة",
+      "critical": "حرجة (Critical)",
+      "urgent": "عاجلة (Urgent)",
+      "medium": "متوسطة (Medium)",
+      "low": "منخفضة (Low)",
+      "all_dates": "كل التواريخ",
+      "today": "اليوم",
+      "last_7_days": "آخر 7 أيام",
+      "last_30_days": "آخر 30 يوم"
+    },
+    "columns": {
+      "id": "المعرف",
+      "user_id": "معرف المستخدم",
+      "severity": "درجة الخطورة",
+      "summary": "ملخص الحالة",
+      "date": "تاريخ البلاغ",
+      "actions": "الإجراءات"
+    },
+    "no_data": "لا توجد حالات طوارئ حالياً",
+    "telemetry_offline": "اتصال بلاغات الطوارئ مغلق",
+    "retry": "إعادة محاولة الاتصال",
+    "actions": {
+      "view": "عرض التفاصيل",
+      "copy": "نسخ معرف الحالة",
+      "export": "تصدير بيانات الحالة",
+      "delete": "حذف سجل الحالة نهائياً"
+    },
+    "messages": {
+      "confirm_delete": "هل أنت متأكد من رغبتك في حذف سجل الطوارئ هذا نهائياً؟",
+      "delete_failed": "فشل حذف سجل الطوارئ من الأنظمة.",
+      "copied": "تم نسخ معرف الحالة إلى الحافظة."
+    },
+    "modal": {
+      "details_title": "تفاصيل حالة الطوارئ الطبية الكاملة",
+      "arabic_summary": "الملخص العربي الكامل (Arabic Summary)",
+      "case_id": "معرف الحالة",
+      "user_id": "معرف المستخدم",
+      "severity": "درجة الخطورة",
+      "created_at": "تاريخ البلاغ"
+    }
+  },
+  "profile": {
+    "title": "الملف الطبي للمشخص",
+    "personal_info": "المعلومات الشخصية",
+    "health_info": "المعلومات الصحية",
+    "first_name": "الاسم الأول",
+    "last_name": "الاسم الأخير",
+    "email": "البريد الإلكتروني",
+    "phone": "رقم الهاتف",
+    "gender": "الجنس",
+    "dob": "تاريخ الميلاد",
+    "blood_type": "فصيلة الدم",
+    "height": "الطول (سم)",
+    "weight": "الوزن (كجم)",
+    "allergies": "الحساسية المعروفة",
+    "chronic_diseases": "الأمراض المزمنة",
+    "edit": "تعديل الملف الشخصي",
+    "save": "حفظ التغييرات",
+    "cancel": "إلغاء",
+    "not_available": "غير متوفر",
+    "success": "تم تحديث الملف الطبي بنجاح!",
+    "loading": "جاري تحميل الملف الطبي الآمن...",
+    "error": "فشل تحديث الملف الطبي. الرجاء المحاولة مرة أخرى.",
+    "administrator": "مدير النظام"
+  }
+}

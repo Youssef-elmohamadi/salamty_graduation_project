@@ -1,0 +1,370 @@
+{
+  "navbar": {
+    "search_placeholder": "Search or type command...",
+    "search": "Search",
+    "notifications": "Notifications",
+    "profile": "Profile"
+  },
+  "sidebar": {
+    "menu": "Menu",
+    "others": "Others",
+    "dashboard": "Admin Home",
+    "ecommerce": "Ecommerce",
+    "calendar": "Calendar",
+    "user_profile": "User Profile",
+    "ai_requests": "AI Requests",
+    "emergency_cases": "Emergency Cases",
+    "forms": "Forms",
+    "form_elements": "Form Elements",
+    "tables": "Tables",
+    "basic_tables": "Basic Tables",
+    "pages": "Pages",
+    "blank_page": "Blank Page",
+    "error_404": "404 Error",
+    "charts": "Charts",
+    "line_chart": "Line Chart",
+    "bar_chart": "Bar Chart",
+    "ui_elements": "UI Elements",
+    "alerts": "Alerts",
+    "avatar": "Avatar",
+    "badge": "Badge",
+    "buttons": "Buttons",
+    "images": "Images",
+    "videos": "Videos",
+    "authentication": "Authentication",
+    "signin": "Sign In",
+    "signup": "Sign Up",
+    "widget": {
+      "title": "TailAdmin Pro",
+      "desc": "Get unlimited access to all features and templates.",
+      "upgrade": "Upgrade to Pro"
+    }
+  },
+  "user": {
+    "edit_profile": "Edit profile",
+    "account_settings": "Account settings",
+    "support": "Support",
+    "sign_out": "Sign out"
+  },
+  "metrics": {
+    "customers": "Customers",
+    "orders": "Orders",
+    "sales": "Sales",
+    "revenue": "Revenue"
+  },
+  "common": {
+    "actions": "Actions",
+    "save": "Save",
+    "cancel": "Cancel",
+    "submit": "Submit",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "ok": "OK",
+    "loading": "Loading...",
+    "no_data": "No data available",
+    "validation": {
+      "required": "This field is required",
+      "email": "Please enter a valid email address",
+      "min_length": "Must be at least {{count}} characters"
+    }
+  },
+  "landing": {
+    "hero": {
+      "badge": "Next-Gen AI Platform",
+      "title_g1": "Transform Analytics",
+      "title_g2": "With Advanced AI",
+      "subtitle": "Unlock deep user patterns, forecast financial vectors, and scale dashboard metrics using real-time generative models in a premium futuristic hub.",
+      "cta_primary": "Enter Dashboard",
+      "cta_secondary": "Watch Demo"
+    },
+    "navbar": {
+      "features": "Features",
+      "preview": "Preview",
+      "stats": "Statistics",
+      "login": "Login",
+      "logo_title": "AI SaaS"
+    },
+    "features": {
+      "title": "Built for Futuristic Tech Teams",
+      "desc": "Leverage quantum-level models to simplify metrics, forecast scales, and maximize operational flows.",
+      "f1_title": "Generative Insights",
+      "f1_desc": "Automatically synthesize daily logs into elegant qualitative performance actions.",
+      "f2_title": "Predictive Scaling",
+      "f2_desc": "Forecast customer vectors up to three quarters in advance with 98% validated accuracy.",
+      "f3_title": "Glassmorphism UI",
+      "f3_desc": "A visual design system optimized for modern dark grids and harmony.",
+      "f4_title": "Quantum Tables",
+      "f4_desc": "Organize large-scale dataset rows with dynamic client-side filtering."
+    },
+    "stats": {
+      "title": "Trusted by Hyper-Growth Startups",
+      "desc": "Real results backing our high-fidelity analytics ecosystem.",
+      "s1_label": "Active SaaS Installs",
+      "s2_label": "AI Vectors Computed Daily",
+      "s3_label": "System Uptime Guaranteed"
+    },
+    "cta": {
+      "title": "Ready to Ascend into the Future of AI?",
+      "desc": "Join over 5,000+ engineers building high-end scalable products today.",
+      "button": "Get Started Instantly"
+    }
+  },
+  "medical_landing": {
+    "brand": "Salamati",
+    "navbar": {
+      "home": "Home",
+      "features": "Features",
+      "analysis": "Analysis",
+      "emergency": "Emergency",
+      "about": "About Us",
+      "contact": "Contact Us",
+      "admin_panel": "Admin Panel"
+    },
+    "hero": {
+      "badge": "Futuristic AI Health Assistant Mobile App",
+      "heading": "Your Health in Smart Hands",
+      "subheading": "Experience سلامتي, a premium mobile application offering real-time AI scan analysis, instant first aid coaching, emergency trauma locator, and an expert medical chat assistant right in your pocket.",
+      "cta_primary": "Download App",
+      "cta_secondary": "Explore Features"
+    },
+    "features": {
+      "title": "Autonomous AI Clinical Mobile Tools",
+      "desc": "Empower your medical analytics and health decisions directly on your smartphone using premium autonomous modules.",
+      "f1_title": "AI Scan & X-Ray Mobile Scanner",
+      "f1_desc": "Analyze X-rays, MRI, and laboratory scans in real-time using your phone's camera.",
+      "f2_title": "24/7 Smart Pocket Assistant",
+      "f2_desc": "An expert AI health helper chat always with you to answer symptoms and direct routes.",
+      "f3_title": "Instant First Aid Coach",
+      "f3_desc": "Visual, voice-guided steps on your phone to handle medical incidents in seconds.",
+      "f4_title": "Emergency Mobile Panic Button",
+      "f4_desc": "One-tap emergency broadcast transmitting geo-coordinates to the nearest trauma unit.",
+      "f5_title": "Clinic & Hospital Mapper",
+      "f5_desc": "Live distance maps and GPS directions showing active medical care providers near you.",
+      "f6_title": "Smart Symptom Logger",
+      "f6_desc": "Log symptoms over time on your phone to generate visual reports for medical consults.",
+      "f7_title": "Predictive Health Recommendations",
+      "f7_desc": "Personalized AI wellness advice and daily vector optimizations matching your activity logs.",
+      "f8_title": "Clinical PDF Reports Export",
+      "f8_desc": "Generate professional, consolidated clinical logs to share with your family doctor."
+    },
+    "emergency": {
+      "badge": "Active Emergency Protocol",
+      "title": "Critical Mobile Emergency Center",
+      "desc": "Instant clinical assistance when seconds count. Broadcast alerts, trigger smart first-aid guides, or tap to call hotlines directly on your phone.",
+      "hotline_title": "Call Hotline Now",
+      "hotline_sub": "Toll-free emergency dialer",
+      "first_aid_title": "First Aid Guide",
+      "first_aid_sub": "Responsive step-by-step help",
+      "ai_assistant_title": "AI Emergency Helper",
+      "ai_assistant_sub": "Guided crisis triage"
+    },
+    "stats": {
+      "users": "Active Users",
+      "users_desc": "Patients and users trusting our platform for daily health tracking.",
+      "analyses": "Medical Analyses Resolved",
+      "analyses_desc": "Laboratory results and scans analyzed and diagnosed by AI.",
+      "emergencies": "Emergencies Dispatched",
+      "emergencies_desc": "Critical emergency alarms navigated to nearest trauma units.",
+      "hospitals": "Connected Hospitals",
+      "hospitals_desc": "Advanced healthcare facilities and hospitals synced in our loop.",
+      "response_time": "Response Speed",
+      "response_time_desc": "Unmatched dispatch latency for critical trauma rescue.",
+      "ai_accuracy": "AI Diagnostic Accuracy",
+      "ai_accuracy_desc": "Clinical-grade analytical precision validated by medical boards."
+    },
+    "testimonials": {
+      "title": "Endorsed by Healthcare Pioneers",
+      "desc": "How users and doctors scale their diagnostic vectors using the Salamati mobile application.",
+      "dr_name": "Dr. Sarah Al-Faisal",
+      "dr_title": "Chief of Clinical AI",
+      "dr_quote": "The Salamati mobile app is an extraordinary clinical companion. It allows patients to check symptoms and share precise PDF reports with us.",
+      "patient_name": "Rayyan Al-Harbi",
+      "patient_title": "Mobile User",
+      "patient_quote": "Having the scan analyzer and panic emergency locator on my phone gives me peace of mind when traveling."
+    },
+    "cta": {
+      "title": "Download the Future of Healthcare Today",
+      "desc": "Unlock diagnostic scan reports, premium pocket clinical bots, and immediate emergency guides powered by advanced medical models.",
+      "button": "Download on the App Store",
+      "contact": "Get it on Google Play"
+    }
+  },
+  "ai_requests": {
+    "title": "AI Clinical Requests Triage & Audit",
+    "subtitle": "Monitor, analyze, and manage active AI medical diagnostic interaction records and response latency.",
+    "meta": {
+      "title": "AI Requests Monitoring Console | Salamati Admin"
+    },
+    "export": "Export Report (CSV)",
+    "summary": {
+      "total": "Total Requests",
+      "completed": "Resolved Requests",
+      "pending": "Active/Processing",
+      "latency": "Avg Latency"
+    },
+    "search_placeholder": "Search by user email, messages, diagnosis preview...",
+    "filters": {
+      "all_types": "All AI Categories",
+      "all_statuses": "All Statuses",
+      "all_users": "All Patients"
+    },
+    "columns": {
+      "user": "User",
+      "type": "Category",
+      "message": "Request Message",
+      "response": "AI Diagnostic Preview",
+      "status": "Status",
+      "latency": "Latency",
+      "date": "Created At",
+      "actions": "Actions"
+    },
+    "telemetry_offline": "Telemetry Link Offline",
+    "retry": "Retry Handshake",
+    "no_data": "No matching diagnostic records found.",
+    "actions": {
+      "view": "View Full Details",
+      "copy": "Copy Prompt",
+      "retry": "Retry AI Request",
+      "delete": "Purge Audit Log"
+    },
+    "messages": {
+      "confirm_delete": "Are you sure you want to purge this diagnostic audit log?",
+      "delete_failed": "Failed to purge telemetry index.",
+      "copied": "Copied prompt text to clipboard."
+    },
+    "pagination": {
+      "info": "Showing {{start}} to {{end}} of {{total}} requests"
+    },
+    "modal": {
+      "details_title": "Clinical Diagnosis & AI Telemetry Console",
+      "user_prompt": "Patient Request Prompt (User Prompt)",
+      "clinical_diagnosis": "AI Clinical Response (Clinical Response)",
+      "telemetry_analysis": "Model Performance Telemetry",
+      "model_used": "Medical Model Engine",
+      "tokens": "Token Telemetry",
+      "attached_files": "Attached Files",
+      "attached_visuals": "Visual Scan Attachments",
+      "no_attachments": "No visual attachments uploaded.",
+      "view_scan": "View Scan ↗",
+      "copy": "Copy Text 📋",
+      "response_time": "Response Speed"
+    }
+  },
+  "admin_home": {
+    "title": "Platform Analytics Control Center",
+    "subtitle": "Monitor real-time generative models, medical triage metrics, and system analytics.",
+    "insights": {
+      "title": "Intelligent Platform Insights",
+      "most_used": "Most Used Feature",
+      "most_active": "Most Active Module",
+      "interactions": "Total Platform Interactions",
+      "ai_requests_val": "AI Requests",
+      "chat_assistant_val": "Chat Assistant"
+    },
+    "metrics": {
+      "total_ai_requests": "Total AI Requests",
+      "total_chat_messages": "Total Chat Messages",
+      "active_chat_users": "Active Chat Users",
+      "total_radiology": "Radiology Reports",
+      "emergency_cases": "Emergency Cases",
+      "drug_checks": "Drug Checks",
+      "total_labs": "Laboratory Analyses",
+      "total_users": "Total Users"
+    },
+    "charts": {
+      "ai_activity_title": "AI Requests Activity",
+      "usage_dist_title": "Platform Usage Distribution",
+      "services_comp_title": "Medical Services Comparison",
+      "requests_label": "Requests",
+      "day_label": "Day",
+      "labs": "Labs",
+      "radiology": "Radiology",
+      "drugs": "Drug Checks",
+      "emergencies": "Emergencies",
+      "ai_requests": "AI Requests",
+      "chat_messages": "Chat Messages",
+      "radiology_reports": "Radiology Reports"
+    }
+  },
+  "emergency_cases": {
+    "title": "Medical Emergency Cases",
+    "subtitle": "Monitor and manage emergency alerts and cases analyzed by the system.",
+    "meta": {
+      "title": "Emergency Cases Console | Salamati Admin"
+    },
+    "export": "Export Cases (CSV)",
+    "summary": {
+      "total": "Total Cases",
+      "critical": "Critical Cases",
+      "urgent": "Urgent Cases",
+      "latest": "Latest Case"
+    },
+    "search_placeholder": "Search by Arabic summary, User ID, Case ID...",
+    "filters": {
+      "all_severities": "All Severity Levels",
+      "critical": "Critical",
+      "urgent": "Urgent",
+      "medium": "Medium",
+      "low": "Low",
+      "all_dates": "All Dates",
+      "today": "Today",
+      "last_7_days": "Last 7 Days",
+      "last_30_days": "Last 30 Days"
+    },
+    "columns": {
+      "id": "ID",
+      "user_id": "User ID",
+      "severity": "Severity Level",
+      "summary": "Case Summary",
+      "date": "Created At",
+      "actions": "Actions"
+    },
+    "no_data": "No emergency cases found",
+    "telemetry_offline": "Emergency Link Offline",
+    "retry": "Retry Handshake",
+    "actions": {
+      "view": "View Details",
+      "copy": "Copy Case ID",
+      "export": "Export Case Data",
+      "delete": "Purge Case Log"
+    },
+    "messages": {
+      "confirm_delete": "Are you sure you want to purge this emergency case log?",
+      "delete_failed": "Failed to purge case telemetry record.",
+      "copied": "Copied Case ID to clipboard."
+    },
+    "modal": {
+      "details_title": "Medical Emergency Case Details",
+      "arabic_summary": "Full Arabic Summary (الملخص العربي الكامل)",
+      "case_id": "Case ID",
+      "user_id": "User ID",
+      "severity": "Severity Level",
+      "created_at": "Created Date"
+    }
+  },
+  "profile": {
+    "title": "Medical Specialist Profile",
+    "personal_info": "Personal Information",
+    "health_info": "Health Information",
+    "first_name": "First Name",
+    "last_name": "Last Name",
+    "email": "Email",
+    "phone": "Phone Number",
+    "gender": "Gender",
+    "dob": "Date of Birth",
+    "blood_type": "Blood Type",
+    "height": "Height",
+    "weight": "Weight",
+    "allergies": "Known Allergies",
+    "chronic_diseases": "Chronic Diseases",
+    "edit": "Edit Profile Details",
+    "save": "Save Changes",
+    "cancel": "Cancel",
+    "not_available": "Not Available",
+    "success": "Profile details updated successfully!",
+    "loading": "Loading secure medical profile...",
+    "error": "Failed to update profile. Please try again.",
+    "administrator": "Administrator"
+  }
+}
