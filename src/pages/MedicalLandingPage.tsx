@@ -75,6 +75,11 @@ export default function MedicalLandingPage() {
   const { t } = useTranslation();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  
+  // Feedback form states
+  const [feedbackName, setFeedbackName] = useState("");
+  const [feedbackSubject, setFeedbackSubject] = useState("General Experience");
+  const [feedbackMsg, setFeedbackMsg] = useState("");
 
   // Handle sticky glass navbar background shift on scroll
   useEffect(() => {
@@ -310,7 +315,7 @@ export default function MedicalLandingPage() {
               <Link to="/admin" className="flex items-center gap-2 group">
                 <img
                   src="/images/logo/logo.png"
-                  alt="Salamati Brand Logo"
+                  alt="Salamty Brand Logo"
                   className="h-9 w-auto hover:scale-105 hover:drop-shadow-[0_0_8px_rgba(34,211,238,0.6)] transition-all duration-300"
                 />
               </Link>
@@ -549,7 +554,7 @@ export default function MedicalLandingPage() {
               <div className="absolute inset-0 bg-gray-950 overflow-hidden">
                 <img
                   src="/screen.jpeg"
-                  alt="Salamati AI Mobile App Screen"
+                  alt="Salamty AI Mobile App Screen"
                   className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
                 />
               </div>
@@ -957,6 +962,109 @@ export default function MedicalLandingPage() {
         </div>
       </section>
 
+      {/* Customer Feedback Section */}
+      <section id="feedback" className="relative py-24 z-10 px-4 border-t border-white/[0.03]">
+        <div className="absolute inset-0 bg-radial from-cyan-900/10 via-transparent to-transparent pointer-events-none z-0" />
+        <div className="max-w-4xl mx-auto relative z-10">
+          <div className="text-center space-y-4 mb-12">
+            <h2 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
+              {t("medical_landing.feedback.title", "شاركنا رأيك وتجربتك")}
+            </h2>
+            <p className="max-w-2xl mx-auto text-base text-gray-400">
+              {t("medical_landing.feedback.desc", "نحن نهتم بمعرفة تجربتك مع منصة سلامتي. رأيك يساعدنا في تحسين نماذجنا الطبية وتطوير خدماتنا بشكل مستمر.")}
+            </p>
+          </div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="rounded-3xl border border-white/[0.06] bg-[#090e1a]/80 p-6 sm:p-10 backdrop-blur-xl shadow-2xl relative overflow-hidden group hover:border-cyan-500/20 duration-300 transition-colors"
+          >
+            {/* Subtle glow behind the form */}
+            <div className="absolute top-0 end-0 w-64 h-64 bg-cyan-500/10 rounded-full blur-[80px] pointer-events-none transition-opacity opacity-50 group-hover:opacity-100" />
+            
+            <div className="relative z-10 space-y-6" id="feedback-container">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <div className="space-y-2 text-start">
+                  <label className="text-sm font-semibold text-gray-300">
+                    {t("medical_landing.feedback.name_label", "الاسم (اختياري)")}
+                  </label>
+                  <input
+                    type="text"
+                    id="feedback-name"
+                    name="name"
+                    value={feedbackName}
+                    onChange={(e) => setFeedbackName(e.target.value)}
+                    placeholder={t("medical_landing.feedback.name_placeholder", "اكتب اسمك هنا")}
+                    className="w-full h-12 rounded-xl bg-slate-950/50 border border-white/[0.08] px-4 text-white placeholder-gray-600 focus:border-cyan-500/50 focus:outline-hidden transition-colors"
+                  />
+                </div>
+                <div className="space-y-2 text-start">
+                  <label className="text-sm font-semibold text-gray-300">
+                    {t("medical_landing.feedback.subject_label", "نوع الرسالة")}
+                  </label>
+                  <select
+                    id="feedback-subject"
+                    name="subject"
+                    value={feedbackSubject}
+                    onChange={(e) => setFeedbackSubject(e.target.value)}
+                    className="w-full h-12 rounded-xl bg-slate-950/50 border border-white/[0.08] px-4 text-white focus:border-cyan-500/50 focus:outline-hidden transition-colors appearance-none cursor-pointer"
+                  >
+                    <option value="General Experience" className="bg-[#090e1a]">{t("medical_landing.feedback.subj_1", "تجربة الاستخدام العامة")}</option>
+                    <option value="Medical AI Accuracy" className="bg-[#090e1a]">{t("medical_landing.feedback.subj_2", "دقة التحليل الطبي")}</option>
+                    <option value="Feature Suggestion" className="bg-[#090e1a]">{t("medical_landing.feedback.subj_3", "اقتراح ميزة جديدة")}</option>
+                    <option value="Issue/Bug" className="bg-[#090e1a]">{t("medical_landing.feedback.subj_4", "الإبلاغ عن مشكلة")}</option>
+                  </select>
+                </div>
+              </div>
+
+              <div className="space-y-2 text-start">
+                <label className="text-sm font-semibold text-gray-300">
+                  {t("medical_landing.feedback.msg_label", "رسالتك")}
+                </label>
+                <textarea
+                  id="feedback-message"
+                  name="message"
+                  rows={4}
+                  value={feedbackMsg}
+                  onChange={(e) => setFeedbackMsg(e.target.value)}
+                  placeholder={t("medical_landing.feedback.msg_placeholder", "شاركنا تفاصيل تجربتك، اقتراحاتك، أو أي ملاحظات ترغب في إضافتها...")}
+                  className="w-full rounded-xl bg-slate-950/50 border border-white/[0.08] p-4 text-white placeholder-gray-600 focus:border-cyan-500/50 focus:outline-hidden transition-colors resize-none"
+                ></textarea>
+              </div>
+
+              <div className="pt-2 flex flex-col items-start gap-3">
+                <a
+                  href={feedbackMsg.trim() ? `mailto:besadanabil86@gmail.com?subject=${encodeURIComponent("Salamty Feedback: " + feedbackSubject)}&body=${encodeURIComponent(feedbackName ? `الاسم: ${feedbackName}\n\n${feedbackMsg}` : feedbackMsg)}` : "#"}
+                  onClick={(e) => {
+                    if (!feedbackMsg.trim()) {
+                      e.preventDefault();
+                      alert(t("medical_landing.feedback.alert_empty", "يرجى كتابة رسالتك قبل الإرسال."));
+                    } else {
+                      // copy to clipboard fallback
+                      navigator.clipboard.writeText("besadanabil86@gmail.com").catch(() => {});
+                      
+                      alert(t("medical_landing.feedback.alert_copied", "تم نسخ الإيميل بنجاح (besadanabil86@gmail.com)!\n\nيبدو أن جهاز الكمبيوتر الخاص بك لا يحتوي على تطبيق بريد إلكتروني مثبت للفتح التلقائي، لذلك قمنا بنسخ الإيميل لتتمكن من مراسلتنا يدوياً."));
+                    }
+                  }}
+                  className="w-full sm:w-auto flex items-center justify-center gap-3 rounded-xl bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 text-white font-bold px-8 py-3.5 shadow-lg shadow-cyan-500/25 hover:shadow-cyan-500/40 active:scale-95 transition-all"
+                >
+                  <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                  </svg>
+                  {t("medical_landing.feedback.submit", "إرسال التقييم عبر البريد")}
+                </a>
+                <p className="text-xs text-gray-500 max-w-sm">
+                  {t("medical_landing.feedback.note", "ملاحظة: سيقوم هذا الزر بفتح تطبيق البريد الإلكتروني (مثل Gmail أو Outlook) المربوط بجهازك. إذا لم يفتح، يرجى مراسلتنا مباشرة على besadanabil86@gmail.com")}
+                </p>
+              </div>
+            </div>
+          </motion.div>
+        </div>
+      </section>
+
       {/* Gradient Medical App Download CTA Section */}
       <section id="download" className="relative py-24 z-10 px-4 border-t border-white/[0.03]">
         <div className="max-w-5xl mx-auto relative rounded-3xl border border-cyan-500/20 overflow-hidden shadow-2xl shadow-cyan-500/5">
@@ -1007,25 +1115,25 @@ export default function MedicalLandingPage() {
           <div className="flex items-center gap-2">
             <img
               src="/images/logo/logo.png"
-              alt="Salamati Brand Logo"
+              alt="Salamty Brand Logo"
               className="h-7 w-auto"
             />
           </div>
 
           <div className="flex items-center gap-6">
             <a href="#" className="hover:text-gray-300 transition-colors">
-              البنود والشروط
+              {t("medical_landing.footer.terms", "البنود والشروط")}
             </a>
             <a href="#" className="hover:text-gray-300 transition-colors">
-              سياسة الخصوصية
+              {t("medical_landing.footer.privacy", "سياسة الخصوصية")}
             </a>
             <a href="#" className="hover:text-gray-300 transition-colors">
-              اتفاقية الخدمة
+              {t("medical_landing.footer.service", "اتفاقية الخدمة")}
             </a>
           </div>
 
           <div className="text-center md:text-end text-xs">
-            &copy; {new Date().getFullYear()} {t("medical_landing.brand", "سلامتي")}. كل الحقوق محفوظة.
+            &copy; {new Date().getFullYear()} {t("medical_landing.brand", "سلامتي")}. {t("medical_landing.footer.rights", "كل الحقوق محفوظة.")}
           </div>
         </div>
       </footer>

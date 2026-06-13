@@ -111,7 +111,7 @@
     }
   },
   "medical_landing": {
-    "brand": "Salamati",
+    "brand": "Salamty",
     "navbar": {
       "home": "Home",
       "features": "Features",
@@ -160,6 +160,10 @@
       "ai_assistant_sub": "Guided crisis triage"
     },
     "stats": {
+      "section_title": "Immediate Digital Care Performance Indicators",
+      "section_desc": "We directly broadcast medical AI metrics and our platform's operational activity as an affirmation of our commitment to speed and transparency.",
+      "error_title": "Medical Telemetry Connection Failed (Telemetry Offline)",
+      "retry_button": "Retry Handshake",
       "users": "Active Users",
       "users_desc": "Patients and users trusting our platform for daily health tracking.",
       "analyses": "Medical Analyses Resolved",
@@ -175,10 +179,10 @@
     },
     "testimonials": {
       "title": "Endorsed by Healthcare Pioneers",
-      "desc": "How users and doctors scale their diagnostic vectors using the Salamati mobile application.",
+      "desc": "How users and doctors scale their diagnostic vectors using the Salamty mobile application.",
       "dr_name": "Dr. Sarah Al-Faisal",
       "dr_title": "Chief of Clinical AI",
-      "dr_quote": "The Salamati mobile app is an extraordinary clinical companion. It allows patients to check symptoms and share precise PDF reports with us.",
+      "dr_quote": "The Salamty mobile app is an extraordinary clinical companion. It allows patients to check symptoms and share precise PDF reports with us.",
       "patient_name": "Rayyan Al-Harbi",
       "patient_title": "Mobile User",
       "patient_quote": "Having the scan analyzer and panic emergency locator on my phone gives me peace of mind when traveling."
@@ -188,13 +192,36 @@
       "desc": "Unlock diagnostic scan reports, premium pocket clinical bots, and immediate emergency guides powered by advanced medical models.",
       "button": "Download on the App Store",
       "contact": "Get it on Google Play"
+    },
+    "feedback": {
+      "title": "Share Your Experience",
+      "desc": "We care about your experience with the Salamty platform. Your feedback helps us continuously improve our medical models and services.",
+      "name_label": "Name (Optional)",
+      "name_placeholder": "Enter your name here",
+      "subject_label": "Subject",
+      "subj_1": "General Experience",
+      "subj_2": "Medical AI Accuracy",
+      "subj_3": "Feature Suggestion",
+      "subj_4": "Report an Issue",
+      "msg_label": "Your Message",
+      "msg_placeholder": "Share the details of your experience, suggestions, or any comments you would like to add...",
+      "submit": "Send Feedback via Email",
+      "note": "Note: This button will open your email app (like Gmail or Outlook) linked to your device. If it does not open, please email us directly at besadanabil86@gmail.com",
+      "alert_empty": "Please write your message before sending.",
+      "alert_copied": "Email copied successfully (besadanabil86@gmail.com)!\n\nIt seems your device does not have an email application configured for automatic opening, so we copied the email so you can contact us manually."
+    },
+    "footer": {
+      "terms": "Terms and Conditions",
+      "privacy": "Privacy Policy",
+      "service": "Service Agreement",
+      "rights": "All rights reserved."
     }
   },
   "ai_requests": {
     "title": "AI Clinical Requests Triage & Audit",
     "subtitle": "Monitor, analyze, and manage active AI medical diagnostic interaction records and response latency.",
     "meta": {
-      "title": "AI Requests Monitoring Console | Salamati Admin"
+      "title": "AI Requests Monitoring Console | Salamty Admin"
     },
     "export": "Export Report (CSV)",
     "summary": {
@@ -291,7 +318,7 @@
     "title": "Medical Emergency Cases",
     "subtitle": "Monitor and manage emergency alerts and cases analyzed by the system.",
     "meta": {
-      "title": "Emergency Cases Console | Salamati Admin"
+      "title": "Emergency Cases Console | Salamty Admin"
     },
     "export": "Export Cases (CSV)",
     "summary": {
