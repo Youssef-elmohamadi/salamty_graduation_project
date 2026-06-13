@@ -1043,10 +1043,8 @@ export default function MedicalLandingPage() {
                       e.preventDefault();
                       alert(t("medical_landing.feedback.alert_empty", "يرجى كتابة رسالتك قبل الإرسال."));
                     } else {
-                      // copy to clipboard fallback
+                      // copy to clipboard silently as a fallback for users without a default mail app
                       navigator.clipboard.writeText("besadanabil86@gmail.com").catch(() => {});
-                      
-                      alert(t("medical_landing.feedback.alert_copied", "تم نسخ الإيميل بنجاح (besadanabil86@gmail.com)!\n\nيبدو أن جهاز الكمبيوتر الخاص بك لا يحتوي على تطبيق بريد إلكتروني مثبت للفتح التلقائي، لذلك قمنا بنسخ الإيميل لتتمكن من مراسلتنا يدوياً."));
                     }
                   }}
                   className="w-full sm:w-auto flex items-center justify-center gap-3 rounded-xl bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 text-white font-bold px-8 py-3.5 shadow-lg shadow-cyan-500/25 hover:shadow-cyan-500/40 active:scale-95 transition-all"
